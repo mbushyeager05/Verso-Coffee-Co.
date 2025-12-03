@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Verso Coffee Co. - Artisanal coffee roasted with care">
+  <title>Verso Coffee Co.</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Fixed Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <a href="/" class="logo">verso coffee</a>
+        </div>
+        
+        <!-- Hamburger Menu Button -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-menu" id="navMenu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#shop" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="#our-story" class="nav-link">Our Story</a>
+          </li>
+          <li class="nav-item">
+            <a href="#journal" class="nav-link">Journal</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-logo">verso coffee</div>
+        <p class="hero-tagline">silence is the new bold.</p>
+        <h1 class="hero-headline">The Other Side of Morning</h1>
+        <a href="#shop" class="btn-primary hero-btn">Explore Our Coffee</a>
+      </div>
+      <div class="scroll-indicator" id="scrollIndicator">
+        <span class="scroll-text">Scroll</span>
+        <span class="scroll-arrow">↓</span>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products" id="shop">
+      <div class="container">
+        <h2 class="section-heading text-center">Our Coffees</h2>
+        <div class="products-grid">
+          <!-- House Blend Product -->
+          <div class="product-card">
+            <div class="product-image">
+              <div class="image-placeholder"></div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">House Blend</h3>
+              <p class="product-origin">Colombia & Brazil</p>
+              <p class="product-roast">Medium Roast</p>
+              <p class="product-notes">Caramel • Cocoa • Balanced</p>
+              <a href="#" class="text-link product-link">Learn More →</a>
+            </div>
+          </div>
+
+          <!-- Morning Ritual Product -->
+          <div class="product-card">
+            <div class="product-image">
+              <div class="image-placeholder"></div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Morning Ritual</h3>
+              <p class="product-origin">Ethiopia Yirgacheffe</p>
+              <p class="product-roast">Light Roast</p>
+              <p class="product-notes">Citrus • Floral • Bright</p>
+              <a href="#" class="text-link product-link">Learn More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Story Section -->
+    <section class="brand-story" id="our-story">
+      <div class="container">
+        <div class="story-layout">
+          <div class="story-text">
+            <blockquote class="story-quote">Turn the Page</blockquote>
+            <p>
+              Every morning presents a choice: rush through the routine or pause to savor the moment. At Verso Coffee, we believe in the power of that pause—the quiet space between waking and doing, where intention meets indulgence.
+            </p>
+            <p>
+              Our approach to coffee is rooted in quality craftsmanship and thoughtful sourcing. We work directly with farmers who share our commitment to excellence, selecting beans that tell a story of place and process. Each batch is roasted with precision, highlighting the unique characteristics that make specialty coffee extraordinary.
+            </p>
+            <p>
+              Sustainability isn't an afterthought—it's woven into everything we do. From our relationships with growers to our packaging choices, we're committed to practices that honor both people and planet. Because the best coffee is coffee that tastes good and does good.
+            </p>
+          </div>
+          <div class="story-image">
+            <div class="image-placeholder"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Grid Section -->
+    <section class="values">
+      <div class="container">
+        <div class="values-grid">
+          <!-- Quality Craftsmanship -->
+          <div class="value-item">
+            <div class="value-icon">☕</div>
+            <h3 class="value-title">Quality Craftsmanship</h3>
+            <p class="value-description">
+              Every bean is carefully selected and roasted to perfection. We take pride in our meticulous approach to bringing out the best in each origin.
+            </p>
+          </div>
+
+          <!-- Authenticity -->
+          <div class="value-item">
+            <div class="value-icon">✦</div>
+            <h3 class="value-title">Authenticity</h3>
+            <p class="value-description">
+              No gimmicks, no shortcuts. Just honest coffee from people who care deeply about their craft and the communities they serve.
+            </p>
+          </div>
+
+          <!-- Sustainability -->
+          <div class="value-item">
+            <div class="value-icon">🌱</div>
+            <h3 class="value-title">Sustainability</h3>
+            <p class="value-description">
+              We're committed to environmental stewardship and ethical sourcing, ensuring our coffee supports both farmers and the planet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section" id="journal">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2 class="newsletter-heading">The Morning Pause Newsletter</h2>
+          <p class="newsletter-description">
+            Join our community for weekly brewing guides, origin stories, and mindful morning rituals delivered to your inbox.
+          </p>
+          <form class="newsletter-form-main" id="newsletterFormMain">
+            <input 
+              type="email" 
+              class="newsletter-input-main" 
+              placeholder="Enter your email address" 
+              required
+              aria-label="Email address"
+            >
+            <button type="submit" class="btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Info Column -->
+        <div class="footer-column">
+          <h3 class="footer-heading">verso coffee</h3>
+          <p class="footer-text">
+            Crafting exceptional coffee experiences since 2025. We source, roast, and deliver premium coffee beans with passion and precision.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Instagram">Instagram</a>
+            <a href="#" class="social-link" aria-label="Facebook">Facebook</a>
+            <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+
+        <!-- Quick Links Column -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#shop" class="footer-link">Shop</a></li>
+            <li><a href="#our-story" class="footer-link">Our Story</a></li>
+            <li><a href="#journal" class="footer-link">Journal</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+            <li><a href="#faq" class="footer-link">FAQ</a></li>
+            <li><a href="#shipping" class="footer-link">Shipping Info</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Column -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Stay Connected</h4>
+          <p class="footer-text">
+            Subscribe to our newsletter for brewing tips, new releases, and exclusive offers.
+          </p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input 
+              type="email" 
+              class="newsletter-input" 
+              placeholder="Enter your email" 
+              required
+              aria-label="Email address"
+            >
+            <button type="submit" class="btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Verso Coffee Co. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

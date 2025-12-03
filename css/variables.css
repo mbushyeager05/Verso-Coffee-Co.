@@ -1,0 +1,39 @@
+:root {
+  /* Colors */
+  --color-forest-green: #2d5016;
+  --color-soft-beige: #f5f1e8;
+  --color-espresso-brown: #3e2723;
+  --color-deep-charcoal: #2c2c2c;
+  --color-white: #ffffff;
+
+  /* Typography */
+  --font-family-primary: 'Montserrat', sans-serif;
+  --font-size-xl: 48px;
+  --font-size-lg: 36px;
+  --font-size-md: 24px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 48px;
+  --spacing-xl: 80px;
+  --spacing-xxl: 120px;
+
+  /* Layout */
+  --max-width-text: 800px;
+  --max-width-container: 1200px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
+
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+}
