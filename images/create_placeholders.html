@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Generate Placeholder Images</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        const images = [
+            { name: 'hero-bg.jpg', width: 1920, height: 1080, gradient: ['#2E5B4A', '#1a3a2d'] },
+            { name: 'product-1.jpg', width: 800, height: 600, gradient: ['#E8DAB2', '#c4b5a0'] },
+            { name: 'product-2.jpg', width: 800, height: 600, gradient: ['#E8DAB2', '#d4c4b0'] },
+            { name: 'story-image.jpg', width: 800, height: 1000, gradient: ['#2E5B4A', '#1a3a2d'] },
+            { name: 'timeline-1.jpg', width: 800, height: 600, gradient: ['#4A2E1F', '#3a2419'] },
+            { name: 'timeline-2.jpg', width: 800, height: 600, gradient: ['#E8DAB2', '#c4b5a0'] },
+            { name: 'timeline-3.jpg', width: 800, height: 600, gradient: ['#2E5B4A', '#1a3a2d'] },
+            { name: 'timeline-4.jpg', width: 800, height: 600, gradient: ['#4A2E1F', '#3a2419'] },
+            { name: 'timeline-5.jpg', width: 800, height: 600, gradient: ['#E8DAB2', '#c4b5a0'] },
+            { name: 'team-1.jpg', width: 400, height: 400, gradient: ['#E8DAB2', '#c4b5a0'] },
+            { name: 'team-2.jpg', width: 400, height: 400, gradient: ['#c4b5a0', '#a49585'] },
+            { name: 'team-3.jpg', width: 400, height: 400, gradient: ['#E8DAB2', '#d4c4b0'] },
+            { name: 'team-4.jpg', width: 400, height: 400, gradient: ['#c4b5a0', '#b4a590'] },
+            { name: 'sustainability.jpg', width: 800, height: 600, gradient: ['#2E5B4A', '#1a3a2d'] },
+            { name: 'article-hero.jpg', width: 1200, height: 600, gradient: ['#E8DAB2', '#c4b5a0'] },
+            { name: 'article-1.jpg', width: 800, height: 500, gradient: ['#4A2E1F', '#3a2419'] },
+            { name: 'article-2.jpg', width: 800, height: 500, gradient: ['#2E5B4A', '#1a3a2d'] },
+            { name: 'article-3.jpg', width: 800, height: 500, gradient: ['#E8DAB2', '#c4b5a0'] },
+        ];
+        
+        console.log('Image generation instructions:');
+        console.log('Use an online tool like https://placeholder.com/ or create images with these specifications:');
+        images.forEach(img => {
+            console.log(`${img.name}: ${img.width}x${img.height} - Gradient from ${img.gradient[0]} to ${img.gradient[1]}`);
+        });
+    </script>
+</body>
+</html>

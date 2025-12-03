@@ -497,6 +497,123 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-placeholder.small {
+  background: linear-gradient(135deg, #E8DAB2 0%, #c4b5a0 100%);
+}
+
+/* Hero specific images */
+.hero {
+  background-image: url('../images/hero-bg.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-hero-image .image-placeholder.hero-large {
+  background-image: url('../images/hero-bg.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Product images */
+.product-card:nth-child(1) .image-placeholder {
+  background-image: url('../images/product-1.svg');
+}
+
+.product-card:nth-child(2) .image-placeholder {
+  background-image: url('../images/product-2.svg');
+}
+
+.shop-product-card .image-placeholder {
+  background: linear-gradient(135deg, #E8DAB2 0%, #c4b5a0 100%);
+}
+
+/* Story image */
+.story-image .image-placeholder {
+  background-image: url('../images/story-image.svg');
+}
+
+/* Timeline images */
+.timeline-item:nth-child(1) .timeline-image .image-placeholder {
+  background-image: url('../images/timeline-1.svg');
+}
+
+.timeline-item:nth-child(2) .timeline-image .image-placeholder {
+  background-image: url('../images/timeline-2.svg');
+}
+
+.timeline-item:nth-child(3) .timeline-image .image-placeholder {
+  background-image: url('../images/timeline-3.svg');
+}
+
+.timeline-item:nth-child(4) .timeline-image .image-placeholder {
+  background-image: url('../images/timeline-4.svg');
+}
+
+.timeline-item:nth-child(5) .timeline-image .image-placeholder {
+  background-image: url('../images/timeline-5.svg');
+}
+
+/* Team photos */
+.team-card:nth-child(1) .team-photo .image-placeholder {
+  background-image: url('../images/team-1.svg');
+}
+
+.team-card:nth-child(2) .team-photo .image-placeholder {
+  background-image: url('../images/team-2.svg');
+}
+
+.team-card:nth-child(3) .team-photo .image-placeholder {
+  background-image: url('../images/team-3.svg');
+}
+
+.team-card:nth-child(4) .team-photo .image-placeholder {
+  background-image: url('../images/team-4.svg');
+}
+
+/* Sustainability image */
+.sustainability-image .image-placeholder {
+  background-image: url('../images/sustainability.svg');
+}
+
+/* Article images */
+.article-hero-image .image-placeholder.article-hero-img {
+  background-image: url('../images/article-hero.svg');
+}
+
+.featured-article-image .image-placeholder.featured {
+  background-image: url('../images/article-hero.svg');
+}
+
+.article-card:nth-child(1) .article-card-image .image-placeholder {
+  background-image: url('../images/article-1.svg');
+}
+
+.article-card:nth-child(2) .article-card-image .image-placeholder {
+  background-image: url('../images/article-2.svg');
+}
+
+.article-card:nth-child(3) .article-card-image .image-placeholder {
+  background-image: url('../images/article-3.svg');
+}
+
+.article-card:nth-child(4) .article-card-image .image-placeholder {
+  background-image: url('../images/article-1.svg');
+}
+
+.article-card:nth-child(5) .article-card-image .image-placeholder {
+  background-image: url('../images/article-2.svg');
+}
+
+.article-card:nth-child(6) .article-card-image .image-placeholder {
+  background-image: url('../images/article-3.svg');
+}
+
+.article-figure .image-placeholder.article-img {
+  background: linear-gradient(135deg, #E8DAB2 0%, #c4b5a0 100%);
 }
 
 .product-info {
